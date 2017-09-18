@@ -201,17 +201,17 @@ h1{
 
 
     nav a{
-        font-size: 6vw;
+        font-size: 5vw;
         color: orangered;
     }
 
 
     #quote1 {
-        font-size: 5vw;
+        font-size: 3.5vw;
     }
 
       #quote2 {
-        font-size: 5vw;
+        font-size: 3.5vw;
     }
 
     #index_body{
@@ -221,15 +221,15 @@ h1{
     }
 
     #my_info p, #my_info ul, #my_info a, #works ul, #works a {
-        font-size:5vw;
+        font-size:4vw;
     }
     
     #works h1{
-        font-size:7vw;
+        font-size:6vw;
     }
 
      #works h2{
-        font-size:6vw;
+        font-size: 4.5vw;
     }
     #about_me{
         width: 100%;
