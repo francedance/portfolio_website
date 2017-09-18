@@ -1,0 +1,340 @@
+#index_body{
+    width:inherit;
+    margin:0 auto;
+    padding:0 auto;
+    overflow-x: hidden;
+}
+
+ul li{
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+nav{
+  font-size:2vw;
+}
+
+navbar {
+  display: inline-block;
+
+}
+
+a{
+  font-size: 2vw;
+  font-family: 'Alegreya Sans SC';
+  color: black;
+ 
+  
+}
+
+#quote1{
+ 
+  font-family: 'Knewave';
+  font-size: 2vw;
+  text-align: left;
+}
+
+
+#quote2{
+  
+  font-family: 'Knewave';
+  font-size: 2vw;
+  text-align: right;
+}
+
+p{
+  font-size: 2vw;
+  font-family: 'Alegreya Sans SC';
+  
+}
+
+ul{
+  font-size: 2vw;
+  font-family: 'Alegreya Sans SC';
+}
+
+#book_link{
+  color: orangered;
+  font-size: 2vw;
+}
+
+#myProgress {
+    width: 1400px;
+    background-color: white;
+    
+}
+#myBar3 {
+    width: 51vw;
+    height: auto;
+    background-color: orangered;
+    text-align:center;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-size: 1.5vw;
+    border:1px solid white;
+    
+}
+#myBar1 {
+    width: 17vw;
+    height: auto;
+    background-color: orangered;
+    text-align:center;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-size: 1.5vw;
+    border:1px solid white;
+   
+}
+h2{
+   font-family: 'Alegreya Sans SC';
+   font-size: 2vw;
+}
+h1{
+   font-family: 'Alegreya Sans SC';
+   font-size: 3vw;
+}
+#myBar2 {
+    width: 34vw;
+    height: auto;
+    background-color: orangered;
+    text-align:center;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-size: 1.5vw;
+    border:1px solid white;
+    
+}
+#myBar4 {
+    width: 68vw;
+    height: auto;
+    background-color: orangered;
+    text-align:center;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-size: 1.5vw;
+    border:1px solid white;
+    
+}
+#myBar5 {
+    width: 85vw;
+    height: auto;
+    background-color: orangered;
+    text-align:center;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-size: 1.5vw;
+    border:1px solid white;
+   
+}
+#profile_pic{
+    width: auto;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .col-1 {width: 100%;}
+    .col-2 {width: 100%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 100%;}
+    .col-5 {width: 100%;}
+    .col-6 {width: 100%;}
+    .col-7 {width: 100%;}
+    .col-8 {width: 100%;}
+    .col-9 {width: 100%;}
+    .col-10 {width: 100%;}
+    .col-11 {width: 100%;}
+    .col-12 {width: 100%;}
+
+    .col-xs-1 {width: 100%;}
+    .col-xs-2 {width: 100%;}
+    .col-xs-3 {width: 25%;}
+    .col-xs-4 {width: 100%;}
+    .col-xs-5 {width: 100%;}
+    .col-xs-6 {width: 100%;}
+    .col-xs-7 {width: 100%;}
+    .col-xs-8 {width: 100%;}
+    .col-xs-9 {width: 100%;}
+    .col-xs-10 {width: 100%;}
+    .col-xs-11 {width: 100%;}
+    .col-xs-12 {width: 100%;}
+
+    .col-sm-1 {width: 100%;}
+    .col-sm-2 {width: 100%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 100%;}
+    .col-sm-5 {width: 100%;}
+    .col-sm-6 {width: 100%;}
+    .col-sm-7 {width: 100%;}
+    .col-sm-8 {width: 100%;}
+    .col-sm-9 {width: 100%;}
+    .col-sm-10 {width: 100%;}
+    .col-sm-11 {width: 100%;}
+    .col-sm-12 {width: 100%;}
+
+    .col-md-1 {width: 100%;}
+    .col-md-2 {width: 100%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 100%;}
+    .col-md-5 {width: 100%;}
+    .col-md-6 {width: 100%;}
+    .col-md-7 {width: 100%;}
+    .col-md-8 {width: 100%;}
+    .col-md-9 {width: 100%;}
+    .col-md-10 {width: 100%;}
+    .col-md-11 {width: 100%;}
+    .col-md-12 {width: 100%;}
+
+    .col-lg-1 {width: 100%;}
+    .col-lg-2 {width: 100%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 100%;}
+    .col-lg-5 {width: 100%;}
+    .col-lg-6 {width: 100%;}
+    .col-lg-7 {width: 100%;}
+    .col-lg-8 {width: 100%;}
+    .col-lg-9 {width: 100%;}
+    .col-lg-10 {width: 100%;}
+    .col-lg-11 {width: 100%;}
+    .col-lg-12 {width: 100%;}
+
+
+    nav a{
+        font-size: 6vw;
+        color: orangered;
+    }
+
+
+    #quote1 {
+        font-size: 5vw;
+    }
+
+      #quote2 {
+        font-size: 5vw;
+    }
+
+    #index_body{
+        width: 100%;
+        
+        
+    }
+
+    #my_info p, #my_info ul, #my_info a, #works ul, #works a {
+        font-size:5vw;
+    }
+    
+    #works h1{
+        font-size:7vw;
+    }
+
+     #works h2{
+        font-size:6vw;
+    }
+    #about_me{
+        width: 100%;
+        height: auto;
+         margin: auto auto;
+        overflow: hidden;
+        text-align: center;
+        
+    }
+
+    #contact{
+        width: 100%;
+        margin: auto auto;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    #skills{
+        width: 100%;
+         margin: auto auto;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    #myProgress {
+        width: inherit;
+        background-color: transparent;
+        text-align: left;
+        padding:0 2vw;
+      
+    }
+
+    #myBar3 {
+    width: 50vw;
+    height: auto;
+    background-color: orangered;
+    text-align: left;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-size: 3.5vw;
+    border:1px solid white;
+    position: relative;
+   
+    
+}
+#myBar1 {
+    width: 30vw;
+    height: auto;
+    background-color: orangered;
+    text-align:center;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-size: 3.5vw;
+    border:1px solid white;
+    position: relative;
+    
+   
+}
+
+
+    #myBar2 {
+    width: 40vw;
+    height: auto;
+    background-color: orangered;
+    text-align:center;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-size: 3.5vw;
+    border:1px solid white;
+    position: relative;
+    
+}
+#myBar4 {
+    width: 60vw;
+    height: auto;
+    background-color: orangered;
+    text-align:center;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-size: 3.5vw;
+    border:1px solid white;
+    position: relative;
+    
+}
+#myBar5 {
+    width: 70vw;
+    height: auto;
+    background-color: orangered;
+    text-align:center;
+    color: white;
+    font-family: 'Alegreya Sans SC';
+    font-size: 3.5vw;
+    border:1px solid white;
+    position: relative;
+   
+}
+
+    #works{
+        width: 100%;
+         margin: auto auto;
+        overflow: hidden;
+        text-align: center;
+    }
+
+
+
+}
+

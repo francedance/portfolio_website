@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+
+    <head>
+         <title>Jaehyuk Oh's Portfolio</title>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <%include ../public/template/scripts.ejs %>
+    </head>
+
+
+    <body id="index_body"  >
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="display: inline-block">
+            <div id="logo" style="text-align: center" >
+                    <a href="/"><img class="img-responsive" style="margin:0 auto;" src="https://www.dropbox.com/s/dwd8qoiwpkpf3fv/logo.png?dl=1" ></a>
+            </div>
+
+            <div class="content-fluid container-fluid" style="text-align: center">
+
+
+                <nav class="navbar">
+                    <div class="container-fluid content-fluid" style="background-color: transparent;display: inline-block">
+                        <ul class="nav navbar-nav" >
+                        <li><a href="#about_me">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    </nav>
+            </div>
+
+            <div class="panel panel-default container-fluid content-fluid">
+                <div class="panel-body container-fluid content-fluid" >
+                    <p id="quote1">Certain things look stunningly beautiful when there's a balance of simplicity and uniqueness</p>
+                    <br/>
+                    <p id="quote2">There are many ingredients to a perfect balance, but I am your first key ingredient<p>
+                </div>
+            </div>
+
+            <br/>
+            <br/>
+
+            <% include ./about_me.ejs %>
+            <br/>
+            <br/>
+            <br/>
+            <% include ./skills.ejs %>
+             <br/>
+            <br/>
+            <br/>
+            <%include ./works.ejs %>
+            <br/>
+            <br/>
+            <br/>
+            <%include ./contact.ejs  %>
+             <br/>
+            <br/>
+            <br/>
+           
+
+
+
+        </div>
+
+       <!-- <img src="https://www.dropbox.com/s/fzc4i9f5ji7olub/portfolio_logo.png?dl=1
+        " >    
+        !-->
+
+
+
+    </body>
+
+
+
+</html>
